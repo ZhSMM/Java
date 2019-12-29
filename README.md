@@ -7,7 +7,7 @@
  ## Spring
 
 1. [Maven安装](./JavaWeb/Maven安装.md)
-2. [Spring重要知识点](./JavaWeb/Spring框架/Spring重要知识点.md)
+2. [Spring重要基础](./JavaWeb/Spring框架/Spring重要知识点.md)
 3. [Spring常用配置](./JavaWeb/Spring框架/Spring常用配置.md)
 4. [Spring核心思想](./JavaWeb/Spring框架/Spring核心思想.md)
 5. [动态代理](./JavaWeb/Spring框架/动态代理.md)

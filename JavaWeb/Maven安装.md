@@ -37,8 +37,8 @@
    ```Java
    <dependency> 
        <groupId>org.springframework</groupId> 
-       <artifactId>spring-webmvc</artifactId> 
-       <version>4.1.5.RELEASE</version> 
+       <artifactId>spring-webmvc</artifactId> //依赖名
+       <version>4.1.5.RELEASE</version> //版本
    </dependency> 
    ```
 

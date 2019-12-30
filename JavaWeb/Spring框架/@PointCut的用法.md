@@ -6,67 +6,71 @@
 
 1. 定义：
 
-```java
-//Pointcut表达式
-@Pointcut("拦截规则")
-//Pointcut签名（signature）
-public void annotationPointcut(){}
+   ```java
+   //Pointcut表达式
+   @Pointcut("拦截规则")
+   //Pointcut签名（signature）
+   public void annotationPointcut(){}
+   
+   //调用
+   @Before("annotationPointcut()")
+   //等同于
+   @Before("拦截规则")
+   ```
 
-//调用
-@Before("annotationPointcut()")
-//等同于
-@Before("拦截规则")
-```
+   
 
-2. Pointcut定义时，还可以使用&&、||、！这三个运算
+2. Pointcut定义时，还可以使用` &&、||、！ `这三个运算
 
-```java
-//Pointcut定义时，还可以使用&&、||、！这三个运算
-@Pointcut("execution(* com.zhangs.aop.MessageSender.*(..))")
-public void logSender(){}
+   ```java
+   //Pointcut定义时，还可以使用&&、||、！这三个运算
+   @Pointcut("execution(* com.zhangs.aop.MessageSender.*(..))")
+   public void logSender(){}
+   
+   @Pointcut("execution(* com.zhangs.aop.MessageReceiver.*(..))")
+   public void logReceiver(){}
+   
+   //将匹配MessageSender与MessageReceiver中任何方法
+   @Pointcut("logSender() || logReceiver()") 
+   public void logMessage(){}
+   ```
 
-@Pointcut("execution(* com.zhangs.aop.MessageReceiver.*(..))")
-public void logReceiver(){}
-
-//将匹配MessageSender与MessageReceiver中任何方法
-@Pointcut("logSender() || logReceiver()") 
-public void logMessage(){}
-```
+   
 
 3. 还可以将一些公用的Pointcut放到一个类中，以供整个应用程序使用
 
-```java
-//定义
-public class Pointcuts{
-    @Pointcut("execution(* com.zhangs.aop.MessageSender.*(..))")
-    public void logMessager(){}
-    
-    @Pointcut("execution(* com.zhangs.aop.MessageReceiver.*(..))")
-	public void logReceiver(){}
-}
-//使用
-//指定完整的类名加上Pointcut签名就可以了
-@Aspect
-public class LogAdvice{
-    @Before("com.zhangs.aop.Pointcuts.logMessager()")
-    public void before(JointPoint joinPoint){
-        System.out.println(joinPoint.getSignature().getName());
-    }
-}
+   ```java
+   //定义
+   public class Pointcuts{
+       @Pointcut("execution(* com.zhangs.aop.MessageSender.*(..))")
+       public void logMessager(){}
+       
+       @Pointcut("execution(* com.zhangs.aop.MessageReceiver.*(..))")
+   	public void logReceiver(){}
+   }
+   //使用
+   //指定完整的类名加上Pointcut签名就可以了
+   @Aspect
+   public class LogAdvice{
+       @Before("com.zhangs.aop.Pointcuts.logMessager()")
+       public void before(JointPoint joinPoint){
+           System.out.println(joinPoint.getSignature().getName());
+       }
+   }
+   
+   //当基于XML Sechma实现Advice时，如果Pointcut需要被重用，可以使用<aop:pointcut></aop:pointcut>来声明Pointcut，然后在需要使用这个Pointcut的地方，用pointcut-ref引用就行了，如：
+   
+   <aop:config>
+   　　<aop:pointcut id="log" expression=
+         "execution(* com.savage.simplespring.bean.MessageSender.*(..))"/>
+   　　<aop:aspect id="logging" ref="logBeforeAdvice">
+   　　　　<aop:before pointcut-ref="log" method="before"/>
+   　　　　<aop:after-returning pointcut-ref="log" method="afterReturning"/>
+   　　</aop:aspect>
+   </aop:config>
+   ```
 
-//当基于XML Sechma实现Advice时，如果Pointcut需要被重用，可以使用<aop:pointcut></aop:pointcut>来声明Pointcut，然后在需要使用这个Pointcut的地方，用pointcut-ref引用就行了，如：
-
-<aop:config>
-　　<aop:pointcut id="log" expression=
-      "execution(* com.savage.simplespring.bean.MessageSender.*(..))"/>
-　　<aop:aspect id="logging" ref="logBeforeAdvice">
-　　　　<aop:before pointcut-ref="log" method="before"/>
-　　　　<aop:after-returning pointcut-ref="log" method="afterReturning"/>
-　　</aop:aspect>
-</aop:config>
-```
-
-
+   
 
 ## 拦截规则
 

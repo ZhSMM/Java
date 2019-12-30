@@ -69,9 +69,9 @@
    　　　　<aop:after-returning pointcut-ref="log" method="afterReturning"/>
    　　</aop:aspect>
    </aop:config>
-```
-   
-   
+   ```
+
+
 
 ## 拦截规则
 
@@ -96,8 +96,6 @@
    execution(public * com. *(..)) 匹配com包下全部的共有方法
    ```
 
-   
-
 2. within格式
 
    > 通过类匹配模式串声明切点，within()函数定义的连接点是针对目标类而言的，而非针对运行期对象的类型而言，这一点和execution()是相同的。
@@ -116,7 +114,5 @@
    //使用
    with(com.test.aop.LogPrint):匹配目标类LogPrint的所有方法。 如果切点调整为within(com.test.aop.Print)，则LogPrint中的所有方法都不匹配。 而Print本身是接口，不可能实例化，所以within(com.test.aop.Print)的声明是无意义的。
    ```
-
-   
 
 3. @annotation(注解)

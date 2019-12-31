@@ -31,7 +31,7 @@
    - [Spring常用配置](./JavaWeb/Spring框架/Spring常用配置.md)
    - [Bean初始化和销毁](./JavaWeb/Spring框架/Bean初始化和销毁.md)
    - [Profile](./JavaWeb/Spring框架/Profile.md)
-   - [事件（Application Event）](./JavaWeb/Spring框架/事件（Application Event）.md)
+   - [事件（Application Event）](./JavaWeb/Spring框架/事件ApplicationEvent.md)
    
 3. Spring高级话题
 

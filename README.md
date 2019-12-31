@@ -25,7 +25,7 @@
 2. Spring-aop
    - [Spring核心思想](./JavaWeb/Spring框架/Spring核心思想.md)
    - [Spring基本概念](./JavaWeb/Spring框架/Spring重要知识点.md)
-   - [Spring AOP](./JavaWeb/Spring框架/Spring AOP.md)
+   - [Spring AOP](./JavaWeb/Spring框架/SpringAOP.md)
      - [Spring AOP与IOC用到的maven配置](./JavaWeb/Spring框架/SpringAOP与IOC用到的maven配置.md)
      - [@Pointcut的用法](./JavaWeb/Spring框架/@PointCut的用法.md)
    - [Spring常用配置](./JavaWeb/Spring框架/Spring常用配置.md)

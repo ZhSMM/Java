@@ -19,7 +19,7 @@
 ## Spring
 
 1. Maven
-   
+  
    - [Maven安装](./JavaWeb/Maven安装.md)
    
 2. Spring-aop
@@ -40,7 +40,6 @@
    - [计划任务](./JavaWeb/Spring框架/计划任务.md)
    - [条件注解@Conditional](./JavaWeb/Spring框架/条件注解@Conditional.md)
    - [组合注解与元注解](./JavaWeb/Spring框架/组合注解与元注解.md)
-   - [@Enable*注解的工作原理](./JavaWeb/Spring框架/@Enable*注解的工作原理.md)
-
+   - [@Enable注解的工作原理](./JavaWeb/Spring框架/Enable注解的工作原理.md)
    - [测试](./JavaWeb/Spring框架/测试.md)
 

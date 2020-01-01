@@ -21,7 +21,6 @@
 1. Maven
   
    - [Maven安装](./JavaWeb/Maven安装.md)
-   
 2. Spring-aop
    - [Spring核心思想](./JavaWeb/Spring框架/Spring核心思想.md)
    - [Spring基本概念](./JavaWeb/Spring框架/Spring重要知识点.md)
@@ -32,7 +31,6 @@
    - [Bean初始化和销毁](./JavaWeb/Spring框架/Bean初始化和销毁.md)
    - [Profile](./JavaWeb/Spring框架/Profile.md)
    - [事件（Application Event）](./JavaWeb/Spring框架/事件ApplicationEvent.md)
-   
 3. Spring高级话题
 
    - [Spring Aware](./JavaWeb/Spring框架/SpringAware.md)
@@ -42,4 +40,7 @@
    - [组合注解与元注解](./JavaWeb/Spring框架/组合注解与元注解.md)
    - [@Enable注解的工作原理](./JavaWeb/Spring框架/Enable注解的工作原理.md)
    - [测试](./JavaWeb/Spring框架/测试.md)
+4. Spring MVC
+   - [构建Spring MVC项目的maven配置](./JavaWeb/SpringMVC/构建SpringMVC项目的maven配置.md)
+   - [Spring MVC概念及示例](./JavaWeb/SpringMVC/SpringMVC4.md)
 

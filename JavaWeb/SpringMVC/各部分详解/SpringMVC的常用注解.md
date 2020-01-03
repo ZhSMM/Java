@@ -34,8 +34,9 @@
 
    ```java
    //添加jackson及相关依赖，获得对象和json或xml之间的转换；
-   <!--对json和xml格式的支持 --> 
-<dependency> 
+   
+<!--对json和xml格式的支持 --> 
+   <dependency> 
        <groupId>com.fasterxml.jackson.dataformat</groupId> 
        <artifactId>jackson-dataformat-xml</artifactId> 
        <version>2.10.0</version> 

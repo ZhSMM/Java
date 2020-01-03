@@ -46,6 +46,6 @@
      - [基于代码的Servlet容器初始化](./JavaWeb/SpringMVC/各部分详解/基于代码的Servlet容器初始化.md)
      - [Spring MVC常用注解](./JavaWeb/SpringMVC/各部分详解/SpringMVC的常用注解.md)
      - [RequestMapping](./JavaWeb/SpringMVC/各部分详解/RequestMapping.md)
-     - [SpringMVC基本配置](./JavaWeb/SpringMVC/各部分详解/Spring MVC基本配置.md)
+     - [SpringMVC基本配置](./JavaWeb/SpringMVC/各部分详解/SpringMVC基本配置.md)
      - 
 

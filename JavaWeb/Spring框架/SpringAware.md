@@ -6,7 +6,7 @@
 >
 > Spring提供的Aware接口:
 >
-> ![Aware 接口](./JavaWeb/imges/Aware接口.jpg)
+> ![Aware 接口](../imges/Aware接口.jpg)
 >
 > Spring Aware的目的是为了让Bean获得Spring容器的服务。因为ApplicationContext接口集成了MessageSource接口、ApplicationEventPublisher接口和ResourceLoader接口，所以Bean继承ApplicationContextAware可以获得Spring容器的所有服务，但原则上我们还是用到什么接口，就实现什么接口。
 

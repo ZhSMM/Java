@@ -86,18 +86,18 @@
    ```java
    package com.wisely.highlight_springmvc4.web.ch4_3; 
    import javax.servlet.http.HttpServletRequest; 
-     
+   
    import org.springframework.stereotype.Controller; 
    import org.springframework.web.bind.annotation.PathVariable; 
    import org.springframework.web.bind.annotation.RequestMapping; 
    import org.springframework.web.bind.annotation.ResponseBody;
    
    import com.wisely.highlight_springmvc4.domain.DemoObj; 
-     
+   
    @Controller //@Controller注解声明此类是一个控制器
    @RequestMapping("/anno") //映射此类的访问路径是/anno
-   public class DemoAnnoController { 
-     
+   public class DemoAnnoController {
+   
        //此方法未标注路径，因此使用类级别的路径/anno；
        //produces可定制返回的response的媒体类型和字符集，
        //或需返回值是json对象，则设置produces=“application/json；charset=UTF-8”

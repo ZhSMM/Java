@@ -35,7 +35,8 @@
    ```java
    //添加jackson及相关依赖，获得对象和json或xml之间的转换；
    
-<!--对json和xml格式的支持 --> 
+
+   <!--对json和xml格式的支持 --> 
    <dependency> 
        <groupId>com.fasterxml.jackson.dataformat</groupId> 
        <artifactId>jackson-dataformat-xml</artifactId> 
@@ -49,7 +50,7 @@
        <artifactId>jackson-databind</artifactId> 
        <version>2.10.0</version> 
    </dependency> 
-   
+
    //此类用来演示获取request对象参数和返回此对象到response：
    package com.wisely.highlight_springmvc4.domain; 
      

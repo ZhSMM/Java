@@ -76,7 +76,7 @@
 
 ## 静态资源映射
 
-> 程序的静态文件（js、css、图片）等需要直接访问，这时我们可以在配置里重写`addResourceHandlers`方法来实现。
+> 程序的静态文件（js、css、图片）等需要直接访问，这时我们可以使MyMvcConfig继承、`WebMvcConfigurerAdapter`或者实现WebMvcConfigurer接口，在配置里重写`addResourceHandlers`方法来实现。
 
 示例：
 

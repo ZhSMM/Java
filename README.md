@@ -1,7 +1,8 @@
 # 目录
-## 常用电子书下载
+## 功能性指南
 
 - [常用电子下载网站](./Resources/常用电子书下载网站.md)
+- [Linux常用命令](https://www.linuxcool.com/)
 
 ## Java
 

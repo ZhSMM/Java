@@ -3,6 +3,8 @@
 
 - [常用电子下载网站](./Resources/常用电子书下载网站.md)
 - [Linux常用命令](https://www.linuxcool.com/)
+- [git使用](./Resources/软件工具----git下载与使用.md)
+- [maven下载及安装](./Resources/maven下载及安装.md)
 
 ## Java
 

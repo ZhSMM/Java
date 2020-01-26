@@ -5,6 +5,8 @@
 - [Linux常用命令](https://www.linuxcool.com/)
 - [git使用](./Resources/软件工具----git下载与使用.md)
 - [maven下载及安装](./Resources/maven下载及安装.md)
+- [腾讯软件中心](https://pc.qq.com/)
+- [阿里云软件镜像](https://developer.aliyun.com/mirror/)
 
 ## Java
 

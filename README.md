@@ -8,6 +8,10 @@
 - [腾讯软件中心](https://pc.qq.com/)
 - [阿里云软件镜像](https://developer.aliyun.com/mirror/)
 
+## 有用的黑科技
+
+- [Win10卓越模式](./resources/Win10卓越模式.md)
+
 ## Java
 
 1. 注解

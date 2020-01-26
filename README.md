@@ -11,6 +11,7 @@
 ## 有用的黑科技
 
 - [Win10卓越模式](./Resources/Win10卓越模式.md)
+- [Win10上帝模式](./Resources/Win10上帝模式文件夹.md)
 
 ## Java
 

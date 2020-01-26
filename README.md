@@ -10,7 +10,7 @@
 
 ## 有用的黑科技
 
-- [Win10卓越模式](./resources/Win10卓越模式.md)
+- [Win10卓越模式](./Resources/Win10卓越模式.md)
 
 ## Java
 

@@ -7,6 +7,7 @@
 - [maven下载及安装](./Resources/maven下载及安装.md)
 - [腾讯软件中心](https://pc.qq.com/)
 - [阿里云软件镜像](https://developer.aliyun.com/mirror/)
+- [MySQL环境变量](./Resources/mysql环境搭建.md)
 
 ## 有用的黑科技
 
@@ -23,8 +24,6 @@
    - [动态代理](./JavaWeb/Spring框架/动态代理.md)
    - [Class.forName与ClassLoader](./JavaWeb/Spring框架/Class.forName与ClassLoader.md)
    - [简单的通过properties文件加载属性的代码](./JavaWeb/Spring框架/简单的通过properties文件加载属性的代码.md)
-
-
 
 ## Spring
 

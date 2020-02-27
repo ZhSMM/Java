@@ -44,3 +44,9 @@
 
    
 
+## 检测
+
+在命令行输入`mvn help:system`，输出一大堆下载后显示如下界面即成功：
+
+![](C:\Users\张松\Desktop\Java\Resources\image\图7.png)
+
